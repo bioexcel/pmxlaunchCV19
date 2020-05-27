@@ -1,0 +1,389 @@
+
+
+<html>
+<head>
+
+
+<script type="application/ld+json"> 
+  {
+  "@context": "https://w3id.org/ro/crate/1.0/context",
+  "@graph": [
+    {
+      "@id": "/ro-crate-metadata.jsonld",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "identifier": "ro-crate-metadata.jsonld",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.0"
+      },
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      "description": "Made with Describo: https://uts-eresearch.github.io/describo/"
+    },
+    {
+      "@type": "Dataset",
+      "description": "BioExcel building blocks workflows used in the COVID-19 research to:\n\n1. Model and compute MD simulations for different mutations across species\n2. Compute alchemical free energy differences upon mutations\n",
+      "license": {
+        "@id": "#08c2f070-e8a1-4b2a-b11b-0bfffcce82b4"
+      },
+      "publisher": [
+        {
+          "@id": "#5bfac42f-2471-415d-ae33-635ac81f653a"
+        }
+      ],
+      "author": [
+        {
+          "@id": "#7bc9d407-7bfc-426e-9412-a7a16bc0a0b1"
+        },
+        {
+          "@id": "#2e24ae00-6ad9-4d98-a0db-d052c7e331d2"
+        }
+      ],
+      "contactPoint": {
+        "@id": "#7010ed40-c3db-4f7b-804d-548b6e978a13"
+      },
+      "hasPart": [
+        {
+          "@id": "workflows/"
+        },
+        {
+          "@id": "#e0e59287-a19e-4446-aef5-97afc614c919"
+        },
+        {
+          "@id": "#5105bcef-1879-45c2-abc9-fd9a491c8d47"
+        }
+      ],
+      "@id": "./",
+      "@reverse": {
+        "about": [
+          {
+            "@id": "/ro-crate-metadata.jsonld"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Apache License 2.0",
+      "identifier": [
+        "https://www.apache.org/licenses/LICENSE-2.0"
+      ],
+      "@reverse": {
+        "license": [
+          {
+            "@id": "./"
+          }
+        ]
+      },
+      "@id": "#08c2f070-e8a1-4b2a-b11b-0bfffcce82b4"
+    },
+    {
+      "@type": "Organization",
+      "name": "MMB group at BSC & IRB",
+      "@reverse": {
+        "publisher": [
+          {
+            "@id": "./"
+          }
+        ]
+      },
+      "@id": "#5bfac42f-2471-415d-ae33-635ac81f653a"
+    },
+    {
+      "@type": "Person",
+      "name": "Adam Hospital",
+      "@reverse": {
+        "author": [
+          {
+            "@id": "./"
+          }
+        ]
+      },
+      "@id": "#7bc9d407-7bfc-426e-9412-a7a16bc0a0b1"
+    },
+    {
+      "@type": "Person",
+      "name": "Pau Andrio",
+      "@reverse": {
+        "author": [
+          {
+            "@id": "./"
+          }
+        ]
+      },
+      "@id": "#2e24ae00-6ad9-4d98-a0db-d052c7e331d2"
+    },
+    {
+      "@type": "ContactPoint",
+      "url": "https://ask.bioexcel.eu/c/BioExcel-Building-Blocks-library/23",
+      "name": "biobb",
+      "@reverse": {
+        "contactPoint": [
+          {
+            "@id": "./"
+          }
+        ]
+      },
+      "@id": "#7010ed40-c3db-4f7b-804d-548b6e978a13"
+    },
+    {
+      "name": "workflows",
+      "@type": "Dataset",
+      "dateModified": "2020-05-27T14:34:22.215Z",
+      "@reverse": {
+        "hasPart": [
+          {
+            "@id": "./"
+          }
+        ]
+      },
+      "hasPart": [
+        {
+          "@id": "workflows/CV19/"
+        },
+        {
+          "@id": "workflows/CV19_MD/"
+        }
+      ],
+      "@id": "workflows/",
+      "isPartOf": [
+        {
+          "@id": "./"
+        }
+      ]
+    },
+    {
+      "name": "CV19",
+      "@type": "Dataset",
+      "dateModified": "2020-05-27T14:34:22.215Z",
+      "@reverse": {
+        "hasPart": [
+          {
+            "@id": "workflows/"
+          }
+        ]
+      },
+      "hasPart": [
+        {
+          "@id": "workflows/CV19/pmx_cv.py"
+        },
+        {
+          "@id": "workflows/CV19/pmx_cv.yaml"
+        }
+      ],
+      "@id": "workflows/CV19/",
+      "isPartOf": [
+        {
+          "@id": "workflows/"
+        }
+      ]
+    },
+    {
+      "name": "pmx_cv.py",
+      "@type": "File",
+      "dateModified": "2020-05-27T14:34:22.215Z",
+      "@reverse": {
+        "hasPart": [
+          {
+            "@id": "workflows/CV19/"
+          }
+        ]
+      },
+      "@id": "workflows/CV19/pmx_cv.py",
+      "isPartOf": [
+        {
+          "@id": "workflows/CV19/"
+        }
+      ]
+    },
+    {
+      "name": "pmx_cv.yaml",
+      "@type": "File",
+      "dateModified": "2020-05-27T14:34:22.215Z",
+      "@reverse": {
+        "hasPart": [
+          {
+            "@id": "workflows/CV19/"
+          }
+        ]
+      },
+      "@id": "workflows/CV19/pmx_cv.yaml",
+      "isPartOf": [
+        {
+          "@id": "workflows/CV19/"
+        }
+      ]
+    },
+    {
+      "name": "CV19_MD",
+      "@type": "Dataset",
+      "dateModified": "2020-05-27T14:34:22.215Z",
+      "@reverse": {
+        "hasPart": [
+          {
+            "@id": "workflows/"
+          }
+        ]
+      },
+      "hasPart": [
+        {
+          "@id": "workflows/CV19_MD/md_muts_sets.py"
+        },
+        {
+          "@id": "workflows/CV19_MD/md_muts_sets.yaml"
+        }
+      ],
+      "@id": "workflows/CV19_MD/",
+      "isPartOf": [
+        {
+          "@id": "workflows/"
+        }
+      ]
+    },
+    {
+      "name": "md_muts_sets.py",
+      "@type": "File",
+      "dateModified": "2020-05-27T14:34:22.215Z",
+      "@reverse": {
+        "hasPart": [
+          {
+            "@id": "workflows/CV19_MD/"
+          }
+        ]
+      },
+      "@id": "workflows/CV19_MD/md_muts_sets.py",
+      "isPartOf": [
+        {
+          "@id": "workflows/CV19_MD/"
+        }
+      ]
+    },
+    {
+      "name": "md_muts_sets.yaml",
+      "@type": "File",
+      "dateModified": "2020-05-27T14:34:22.215Z",
+      "@reverse": {
+        "hasPart": [
+          {
+            "@id": "workflows/CV19_MD/"
+          }
+        ]
+      },
+      "@id": "workflows/CV19_MD/md_muts_sets.yaml",
+      "isPartOf": [
+        {
+          "@id": "workflows/CV19_MD/"
+        }
+      ]
+    },
+    {
+      "@type": "Workflow",
+      "name": "CV19_MD",
+      "description": "Compute alchemical free energy differences upon mutations",
+      "@reverse": {
+        "hasPart": [
+          {
+            "@id": "./"
+          }
+        ]
+      },
+      "@id": "#e0e59287-a19e-4446-aef5-97afc614c919",
+      "isPartOf": [
+        {
+          "@id": "./"
+        }
+      ]
+    },
+    {
+      "@type": "Workflow",
+      "name": "CV19",
+      "@reverse": {
+        "hasPart": [
+          {
+            "@id": "./"
+          }
+        ]
+      },
+      "description": "Model and compute MD simulations for different mutations across species",
+      "@id": "#5105bcef-1879-45c2-abc9-fd9a491c8d47",
+      "isPartOf": [
+        {
+          "@id": "./"
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+
+
+<script src="https://data.research.uts.edu.au/examples/ro-crate/examples/src/crate.js"></script>
+
+
+
+
+
+<link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"/>
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<meta charset='utf-8'/>
+<style>
+
+table.table {
+  padding-bottom: 300px;
+}
+</style>
+</head>
+
+
+<body>
+
+  <nav class="navbar">
+
+    <ul class="nav navbar-nav" >
+        <li ><a href="#"><span class="glyphicon glyphicon-home dataset_name">&nbsp;</span></a></li>
+    </ul>
+
+  </nav>
+<div class="container">
+<div class="jumbotron">
+<h4 class="citation"></h3>
+<h3 class="item_name"></h4>
+
+
+<a href="./ro-crate-metadata.jsonld">⬇️🏷️ Download all the metadata for <span class='name'></span> in JSON-LD format</a>
+<div class="check"></div>
+</div>
+
+
+
+<div id="summary">
+<div><h3><a href="./">Browse files ./</a></h3><table class="table metadata table-striped" id="./"><tbody><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Dataset</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">description<span>&#xA0;</span><a href="http://schema.org/description">[?]</a></th><td style="text-align:left"> <span>BioExcel building blocks workflows used in the COVID-19 research to:
+
+1. Model and compute MD simulations for different mutations across species
+2. Compute alchemical free energy differences upon mutations
+</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">author<span>&#xA0;</span><a href="http://schema.org/author">[?]</a></th><td style="text-align:left"> <ul><li><a href="##7bc9d407-7bfc-426e-9412-a7a16bc0a0b1">Adam Hospital</a></li><li><a href="##2e24ae00-6ad9-4d98-a0db-d052c7e331d2">Pau Andrio</a></li></ul></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">about<span>&#xA0;</span><a href="http://schema.org/about">[?]</a></th><td style="text-align:left"> <a href="#/ro-crate-metadata.jsonld">/ro-crate-metadata.jsonld</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">license<span>&#xA0;</span><a href="http://schema.org/license">[?]</a></th><td style="text-align:left"> <a href="##08c2f070-e8a1-4b2a-b11b-0bfffcce82b4">Apache License 2.0</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">publisher<span>&#xA0;</span><a href="http://schema.org/publisher">[?]</a></th><td style="text-align:left"> <a href="##5bfac42f-2471-415d-ae33-635ac81f653a">MMB group at BSC &amp; IRB</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">contactPoint<span>&#xA0;</span><a href="http://schema.org/contactPoint">[?]</a></th><td style="text-align:left"> <a href="##7010ed40-c3db-4f7b-804d-548b6e978a13">biobb</a></td></tr><tr><th style="white-space: nowrap; width: 1%;">hasPart<span>&#xA0;</span><a href="http://schema.org/hasPart">[?]</a></th><td style="text-align:left"> <ul><li><a href="#workflows/">workflows</a></li><li><a href="##e0e59287-a19e-4446-aef5-97afc614c919">CV19_MD</a></li><li><a href="##5105bcef-1879-45c2-abc9-fd9a491c8d47">CV19</a></li></ul></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#7bc9d407-7bfc-426e-9412-a7a16bc0a0b1"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Adam Hospital</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Person</span></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">author<span>&#xA0;</span><a href="http://schema.org/author">[?]</a></th><td style="text-align:left"> <a href="#./">./</a></td></tr></tbody></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#2e24ae00-6ad9-4d98-a0db-d052c7e331d2"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Pau Andrio</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Person</span></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">author<span>&#xA0;</span><a href="http://schema.org/author">[?]</a></th><td style="text-align:left"> <a href="#./">./</a></td></tr></tbody></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#08c2f070-e8a1-4b2a-b11b-0bfffcce82b4"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>Apache License 2.0</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>CreativeWork</span></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">license<span>&#xA0;</span><a href="http://schema.org/license">[?]</a></th><td style="text-align:left"> <a href="#./">./</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">identifier<span>&#xA0;</span><a href="http://schema.org/identifier">[?]</a></th><td style="text-align:left"> <a href="https://www.apache.org/licenses/LICENSE-2.0">https://www.apache.org/licenses/LICENSE-2.0</a></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#5bfac42f-2471-415d-ae33-635ac81f653a"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>MMB group at BSC &amp; IRB</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Organization</span></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">publisher<span>&#xA0;</span><a href="http://schema.org/publisher">[?]</a></th><td style="text-align:left"> <a href="#./">./</a></td></tr></tbody></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#7010ed40-c3db-4f7b-804d-548b6e978a13"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>biobb</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>ContactPoint</span></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">contactPoint<span>&#xA0;</span><a href="http://schema.org/contactPoint">[?]</a></th><td style="text-align:left"> <a href="#./">./</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">url<span>&#xA0;</span><a href="http://schema.org/url">[?]</a></th><td style="text-align:left"> <a href="https://ask.bioexcel.eu/c/BioExcel-Building-Blocks-library/23">https://ask.bioexcel.eu/c/BioExcel-Building-Blocks-library/23</a></td></tr></tbody></table></div><div><h3><a href="workflows/">Browse files workflows/</a></h3><table class="table metadata table-striped" id="workflows/"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>workflows</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Dataset</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">isPartOf<span>&#xA0;</span><a href="http://schema.org/isPartOf">[?]</a></th><td style="text-align:left"> <a href="#./">./</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">hasPart<span>&#xA0;</span><a href="http://schema.org/hasPart">[?]</a></th><td style="text-align:left"> <a href="#./">./</a></td></tr></tbody></td></tr><tr><th style="white-space: nowrap; width: 1%;">dateModified<span>&#xA0;</span><a href="http://schema.org/dateModified">[?]</a></th><td style="text-align:left"> <span>2020-05-27T14:34:22.215Z</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">hasPart<span>&#xA0;</span><a href="http://schema.org/hasPart">[?]</a></th><td style="text-align:left"> <ul><li><a href="#workflows/CV19/">CV19</a></li><li><a href="#workflows/CV19_MD/">CV19_MD</a></li></ul></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#e0e59287-a19e-4446-aef5-97afc614c919"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>CV19_MD</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Workflow</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">description<span>&#xA0;</span><a href="http://schema.org/description">[?]</a></th><td style="text-align:left"> <span>Compute alchemical free energy differences upon mutations</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">isPartOf<span>&#xA0;</span><a href="http://schema.org/isPartOf">[?]</a></th><td style="text-align:left"> <a href="#./">./</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">hasPart<span>&#xA0;</span><a href="http://schema.org/hasPart">[?]</a></th><td style="text-align:left"> <a href="#./">./</a></td></tr></tbody></td></tr></tbody></table></div><div><h3></h3><table class="table metadata table-striped" id="#5105bcef-1879-45c2-abc9-fd9a491c8d47"><tbody><tr><th style="white-space: nowrap; width: 1%;">name<span>&#xA0;</span><a href="http://schema.org/name">[?]</a></th><td style="text-align:left"> <span>CV19</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">@type</th><td style="text-align:left"> <span>Workflow</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">description<span>&#xA0;</span><a href="http://schema.org/description">[?]</a></th><td style="text-align:left"> <span>Model and compute MD simulations for different mutations across species</span></td></tr><tr><th style="white-space: nowrap; width: 1%;">isPartOf<span>&#xA0;</span><a href="http://schema.org/isPartOf">[?]</a></th><td style="text-align:left"> <a href="#./">./</a></td></tr><tr><th style="white-space: nowrap;">Referenced by</th><td style="text-align:left"> <tbody><tr><th style="white-space: nowrap; width: 1%;">hasPart<span>&#xA0;</span><a href="http://schema.org/hasPart">[?]</a></th><td style="text-align:left"> <a href="#./">./</a></td></tr></tbody></td></tr></tbody></table></div>
+</div>
+
+
+<p>This file was created at 1590591788085 by
+<a href='https://code.research.uts.edu.au/eresearch/calcytejs'>
+Calcyte</a> which implements the <a href=''>
+Draft RO-Crate format</a>, version 
+ </p>
+
+
+</body>
+</html>
